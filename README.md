@@ -1,29 +1,23 @@
 # Joseph K. Miller
 
-I'm a postdoctoral associate in mathematics at MIT. I study how collective behavior emerges from interacting particle systems, combining mathematical analysis with scientific computing. My work connects kinetic theory, effective equations, stability, and the control of interaction networks. I also explore how AI can support mathematical research and formal verification.
+**Postdoctoral Associate in Mathematics · MIT**
 
-[Website](https://hydrodynamical.github.io/) · [Research and publications](https://hydrodynamical.github.io/Research.html)
+I study how collective behavior emerges from interacting particle systems. My work combines kinetic theory and mathematical analysis with numerical simulation, control, and formal verification. I also build benchmarks for scientific reasoning with language models.
 
-## Selected projects
+[Website](https://hydrodynamical.github.io/) · [Publications](https://hydrodynamical.github.io/Publications.html) · [CV](https://hydrodynamical.github.io/files/CV.pdf)
 
-### [Vlasov Mean-Field Formalization](https://github.com/Hydrodynamical/Vlasov_Meanfield_Formalization)
+## Research software
 
-An AI-assisted Lean 4 / Mathlib formalization of the mean-field derivation of the Vlasov equation for globally Lipschitz interaction forces. The project includes well-posedness, Dobrushin stability, mean-field convergence, and a short-window superposition result under additional hypotheses, with a companion paper, blueprint, and proof-certification instructions.
-
-[Paper](https://github.com/Hydrodynamical/Vlasov_Meanfield_Formalization/blob/main/PAPER.pdf) · [Blueprint and documentation](https://hydrodynamical.github.io/Vlasov_Meanfield_Formalization/)
-
-### [Graphon Control](https://github.com/Hydrodynamical/Graphon_Control)
-
-Learning interaction networks to steer collective behavior. This PyTorch research implementation combines neural interaction kernels, differentiable stochastic simulation, and optimization, with experiments in opinion dynamics and oscillator synchronization. Joint work with Brandon Su.
-
-### [Fermi–Ulam](https://github.com/Hydrodynamical/Fermi-Ulam)
-
-Stochastic particle simulation and model validation for a driven kinetic system. The project investigates how regular and chaotic wall dynamics influence collective heating, using calibration, first-passage analysis, and comparisons between proposed statistical descriptions and simulated trajectories.
-
-### [PDE Learning](https://github.com/Hydrodynamical/PDE_Learning)
-
-Can a language model identify an unknown PDE by choosing informative experiments? This benchmark studies how models select test functions to recover the coefficients of an elliptic PDE through its weak formulation, using numerical solver tools. It combines inverse problems, experimental design, and detailed diagnostics of query efficiency and numerical conditioning.
+| Project | Focus | Explore |
+| --- | --- | --- |
+| [Graphon Control](https://github.com/Hydrodynamical/Graphon_Control) | Neural interaction kernels and differentiable simulation for controlling collective dynamics. | [Paper](https://arxiv.org/abs/2610.31975) · [Experiments](https://github.com/Hydrodynamical/Graphon_Control#experiments) |
+| [Lucas–Moll Simulations](https://github.com/Hydrodynamical/Lucas-Moll-Simulations) | Particle–PDE comparisons for a prescribed learning model, with reproducible runs and diagnostics. | [Figures & animations](https://github.com/Hydrodynamical/Lucas-Moll-Simulations/tree/main/docs/previews/100k-2026-11-02) |
+| [Fermi–Ulam](https://github.com/Hydrodynamical/Fermi-Ulam) | Stochastic particle models of wall heating and collisions; calibration and first-passage analysis. | [Model & methods](https://github.com/Hydrodynamical/Fermi-Ulam#physical-setup) |
+| [PDE Learning](https://github.com/Hydrodynamical/PDE_Learning) | A benchmark of language-model experimental design for identifying unknown elliptic PDE coefficients. | [Preprint](https://github.com/Hydrodynamical/PDE_Learning/blob/main/paper.pdf) · [Reproduction guide](https://github.com/Hydrodynamical/PDE_Learning/tree/main/paper_artifacts) |
+| [Vlasov Mean-Field Formalization](https://github.com/Hydrodynamical/Vlasov_Meanfield_Formalization) | Lean 4 / Mathlib proofs of well-posedness, stability, and mean-field results for the Vlasov equation. | [Paper](https://github.com/Hydrodynamical/Vlasov_Meanfield_Formalization/blob/main/PAPER.pdf) · [Documentation](https://hydrodynamical.github.io/Vlasov_Meanfield_Formalization/) |
 
 ## Methods
 
-Mathematical analysis · kinetic equations · interacting particle systems · stochastic simulation · scientific machine learning · Lean formalization
+Kinetic equations · interacting particle systems · stochastic simulation · optimization · scientific machine learning · Lean formalization
+
+Python / NumPy / PyTorch · Lean 4 / Mathlib
